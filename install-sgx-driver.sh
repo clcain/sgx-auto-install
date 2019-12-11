@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "- - - Installing headers - - -"
-sudo apt-get install linux-headers-$(uname -r)
+sudo apt-get install -y linux-headers-$(uname -r)
 echo
 
 echo "- - - Cloning linux-sgx-driver repository - - -"

@@ -1,11 +1,5 @@
 #!/bin/bash
 
-echo "- - - Installing packages - - - "
-sudo apt-get install -y build-essential ocaml ocamlbuild automake autoconf libtool wget python libssl-dev
-sudo apt-get install -y libssl-dev libcurl4-openssl-dev protobuf-compiler libprotobuf-dev debhelper cmake
-sudo apt-get install -y build-essential python
-echo
-
 echo "- - - Cloning linux-sgx repository - - -"
 cd ../
 git clone https://github.com/intel/linux-sgx
