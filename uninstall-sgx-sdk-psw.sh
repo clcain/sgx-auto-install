@@ -12,4 +12,8 @@ echo "- - - Removing linux-sgx repository - - -"
 rm -rf ../linux-sgx
 echo
 
+echo "- - - Removing SGX SDK Installation directory - - -"
+rm -fr /opt/intel/sgxpsw
+echo
+
 echo "Uninstall complete."
